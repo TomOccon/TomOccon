@@ -18,18 +18,30 @@ That's the job. And I love it.
 
 ## The Career Arc That Got Me Here
 
-I was a Support Manager who started building AI tools on my own — before anyone asked.
-I built an automated account intelligence workflow using Domo's own platform and showed
-it to the company's Chief AI & Analytics Officer. He sent it to the CTO in a
-company-wide executive brief as the example of what's possible.
-
-A few months later, the CEO announced Domo was doubling down on its FDE motion.
-I was one of the first to transition into that role.
-
 ```
-Manager, Preferred Technical Support
+2022–2024 · Sr. Technical Advisor, Preferred Support
   │
-  ├─ Built AI account review workflow → Chief AI Officer cited it to CTO
+  ├─ January 2024: Initiated a cross-functional AI project with Domo's
+  │    product team to apply OpenAI to NPS sentiment analysis in Support.
+  │    I was still an individual contributor. Nobody asked me to do this.
+  │
+  └─ Managing enterprise escalations, onboarding, and technical triage
+       for Fortune 500 Preferred Support accounts.
+
+November 2024 · Promoted to Manager, Technical Support
+  │
+  ├─ Took over the West Coast Preferred Support team.
+  │
+  ├─ April 2025: Named co-lead for one of five AI initiatives
+  │    formally prioritized by Domo's CCO for the support organization.
+  │
+  ├─ June 2025: Authored and circulated an SME Program proposal
+  │    directly to the VP and all senior support managers —
+  │    a cross-functional program designed with Product, Engineering,
+  │    and Professional Services integration.
+  │
+  ├─ December 2025: Advanced to an in-person interview with Domo's CCO
+  │    for the VP, Support role — 13 months after becoming a manager.
   │
   ├─ Co-led Domopalooza Brilliance Bar:
   │    ~300 customer appointments · $78.6M total ACV engaged
@@ -37,17 +49,19 @@ Manager, Preferred Technical Support
   │    VP of Technical Support: "You set the tone... your leadership
   │    elevated what we accomplished together."
   │
-  ├─ Built an AI ROI calculator for a customer whose analytics director
-  │    wrote: "Easily the most impressed I've been coming out of a vendor
-  │    meeting in the decade I've been doing this."
-  │    Domo's CCO texted me: "May have heard YOU were the mastermind?"
+  └─ Built AI account review workflow → Chief AI Officer cited it
+       to the CTO in a company-wide executive brief.
+
+May 2026 · Forward Deployed Engineer
   │
-  ↓
-Forward Deployed Engineer
+  ├─ Week one: drove a customer demo that made an analytics director
+  │    write "Easily the most impressed I've been coming out of a vendor
+  │    meeting in the decade I've been doing this." The VP of PS called
+  │    it out on the executive staff thread personally.
+  │    CCO texted: "May have heard YOU were the mastermind?"
   │
   ├─ "Tom is crushing it... The customer has said game changer
-  │    more times than I can count." (AE live-reporting from
-  │    a high-stakes executive onsite)
+  │    more times than I can count." (AE live from high-stakes onsite)
   │
   ├─ 35+ enterprise builds in the first 4 months
   │
