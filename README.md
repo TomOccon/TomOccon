@@ -1,207 +1,237 @@
 # Tom Occon
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   FORWARD DEPLOYED ENGINEERING                                   ║
-║   AI  ·  DATA SYSTEMS  ·  CUSTOMER SOLUTIONS                    ║
-║                                                                  ║
-║   35+ enterprise builds. 10+ industries. One loop:              ║
-║   customer problem → architecture → production system.          ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+**Forward Deployed Engineer · AI & Data Systems · Customer Outcomes**
 
-I'm a Forward Deployed Engineer who operates at the intersection of
-**customer discovery, data architecture, AI integration, and full-stack engineering.**
-
-I don't hand off to an engineering team. I am the engineering team — from the
-first whiteboard session to the production deploy and the iteration after
-the customer uses it for the first time.
+Lehi, UT · [LinkedIn](https://linkedin.com/in/tom-occon) · tom.occon@gmail.com
 
 ---
 
-## Selected Work
+## The Short Version
 
-### Internal Platform Engineering
+I build systems that solve real customer problems. I was a Support Manager who started
+building AI tools proactively — before anyone asked. Domo's Chief AI & Analytics Officer
+saw one of those tools and cited it to the CTO in a company-wide executive brief as an
+example of what's possible. The CEO doubled down on the FDE motion. I was one of the
+first people to transition into that role.
 
-**[Professional Services Operations Platform](https://github.com/Concon8991/forward-deployed-operations-platform)**  
-The operating system for an enterprise professional services organization.
-Built from a 1,464-line spec I authored myself. Now in **v9+, live in production**,
-serving 50–100+ employees across FDE, consulting, leadership, and operations roles.
+That's not a resume arc. That's a demonstrated pattern:
 
-Stack: React 19 + TypeScript + Vite + Tailwind + AppDB + Code Engine (7 functions) + DomoGPT + 22 datasets + 14 state collections. Seven personas, AI meeting prep synthesis, client/partner portals, immutable audit trail, Salesforce writeback via ETL, SPP timesheet automation.
+> **See a problem → build the solution → create a business outcome → be trusted with the next, harder problem.**
 
-One specific outcome: the weekly SPP timesheet process went from **20 minutes
-of manual data entry to under 5 minutes**, replicated across every IC on the team.
+---
+
+## Career Arc
+
+```
+Manager, Preferred Technical Support
+        │
+        ├─ Built an AI-powered account review workflow using
+        │  Domo's own platform. Showed it to the Chief AI Officer.
+        │  He cited it to the CTO in an executive distribution email
+        │  as the reference example for what's possible.
+        │
+        ├─ Led the Brilliance Bar at Domo's annual customer conference
+        │  (Domopalooza): ~300 customer sessions, $78.6M total ACV engaged,
+        │  9.64/10 CSAT (81% perfect scores), 43% Director-level+ attendees.
+        │  VP of Technical Support called out my leadership specifically.
+        │
+        ├─ Built an AI ROI calculator for a strategic customer whose
+        │  analytics director wrote: "Easily the most impressed I've been
+        │  coming out of a vendor meeting in the decade I've been doing this."
+        │  It reached the CEO and CMO. Domo's CCO emailed me directly:
+        │  "May have heard YOU were the mastermind?"
+        │
+        ↓
+Forward Deployed Engineer
+        │
+        ├─ Part of the first wave of the CEO's strategic initiative
+        │  to double down on Domo's FDE motion
+        │
+        ├─ Led a high-stakes executive onsite for a customer whose CEO
+        │  flew in people from across the country for the single meeting.
+        │  Live from the room: "The customer has said game changer
+        │  more times than I can count."
+        │
+        ├─ 35+ enterprise customer builds across 10+ industries
+        │  in the first 4 months in the role
+        │
+        └─ Built the internal operating system for Domo's entire
+           Professional Services organization (v9+, 50-100+ users)
+```
+
+---
+
+## What I Actually Build
+
+### Internal Platform (Production)
+
+**[Professional Services Operations Platform](https://github.com/Concon8991/forward-deployed-operations-platform)**
+
+The operating system for an enterprise professional services organization — built from
+a 1,464-line spec I authored, now in **v9+ and live in production** serving 50–100+
+employees. Not a prototype. Not a POC. A production system with:
+
+- 22 data sources integrated (Salesforce, SPP, Gong calls, health signals, support cases)
+- 14 application state collections
+- 7 persona-aware views (IC, manager, leader, client, partner, admin)
+- AI meeting prep: Gong transcripts + pending tasks → structured briefing document
+- Live AI account intelligence ("Why this account needs attention")
+- Automated timesheet workflow that cut a 20-minute weekly task to under 5 minutes — for every IC on the team
+- Full audit trail, Salesforce writeback, client portal with external persona isolation
+
+**Stack:** React 19 + TypeScript + Vite + Tailwind + AppDB + Code Engine + DomoGPT + Magic ETL
 
 ---
 
 ### Enterprise Customer Delivery
 
-**Aviation Capital Group — Automated Trading Tape Report Generator**  
+**Aviation Capital Group — Trading Tape Automation**
+
 ACG manages 100+ aircraft leases globally. Their team spent 3–4 hours per week
-manually pulling data across 6+ views, copying into Excel, formatting per-aircraft
-tabs. I automated this end-to-end: Jupyter workspace (44 datasets, Snowflake ODBC
-integration, Domo Documents API, multi-environment dev→UAT→prod migration via Domo Sandbox).
+manually extracting data from 6+ sources into Excel, formatting per-aircraft tabs.
+I automated the entire process end-to-end: Jupyter workspace (44 datasets), Snowflake
+ODBC integration, Documents API, multi-environment promotion via Domo Sandbox.
 
-One specific moment: the customer's director delivered a **same-day ultimatum**
-on a critical Snowflake ODBC bug (1,024-character field truncation silently dropping
-data). I diagnosed and resolved it in the same session. Senior stakeholders at
-go-live called it "flooring." A trader requested a live pull before V1 was even released.
+A critical Snowflake field truncation bug surfaced under a same-day deadline from
+the customer's director. I diagnosed and resolved it in the same session.
+At go-live, senior stakeholders called it "flooring." A trader requested a live pull
+before V1 was even released.
 
-**Home Depot — AI Markup Pricing Tool**  
-Built a complete **AI-driven salvage pricing recommendation system in under 24 hours**
-for a Fortune 50 stakeholder demo. Inputs: 16.2M-row HDR scan dataset + Google BigQuery
-inventory data. Output: AI-recommended markup percentages by department/class/subclass
-with confidence scores and an approve/deny workflow that writes back to audit tables.
-Stack: React + Domo Workflows (AI agent backend) + BigQuery cloud integration.
+**Home Depot — AI Markup Pricing Tool (built in under 24 hours)**
 
-**Power BI Migration Tooling**  
-Built a Power BI REST API automation script (Claude Code + REST client) that converts
-Power BI dashboards to Domo App Studio. Used to migrate **~1,000 Power BI dashboards
-for a previous customer in approximately one week.** Referenced as a competitive proof
-point with multiple Fortune 500 accounts. At First Colony Mortgage, the executive
-sponsor designated Domo as the company's sole reporting platform and began sunsetting
-Power BI as a direct result of the migration engagement.
+For a Fortune 50 stakeholder demo, I built a complete AI-driven salvage pricing
+system: 16.2M-row HDR scan data + Google BigQuery inventory → AI-recommended markups
+by department/class/subclass with confidence scores + approve/deny workflow that
+writes back to audit tables. Zero to demo in under one business day.
 
-**Cox Farms — 73% Cloud Credit Reduction Program**  
-Delivered a full Domo instance audit: 2,000+ orphaned datasets (feeding no cards),
+**Power BI → Domo Migration Tooling**
+
+Built a Power BI REST API automation script that converts Power BI dashboards to
+Domo App Studio using Claude Code. Applied at multiple Fortune 500 accounts.
+Reference outcome: ~1,000 Power BI dashboards migrated for a prior customer in
+approximately one week. At one engagement, the executive sponsor designated
+Domo as the company's sole reporting platform and began sunsetting Power BI
+as a direct result.
+
+**Instance Governance (73% credit reduction program)**
+
+Full audit of a customer's cloud analytics environment: 2,000+ orphaned datasets,
 22M duplicate rows across 55 datasets, one dataset at 126M rows with no clear owner.
-Developed a function-by-function remediation plan and am executing the phased
-bulk archival program. Projected outcome: 73% reduction in cloud computing credit
-consumption by year-end.
+Developed and am executing a phased remediation program. Projected outcome:
+73% reduction in cloud computing credit consumption by year-end.
 
 ---
 
-### AI Agent Architecture
+### AI Systems
 
-**[Scoob — Personal AI Operating System](https://github.com/Concon8991/scoob-ai-architecture)**  
-A multi-agent AI system I designed and built to run my own FDE work.
+**[AI Support Intelligence Pipeline](https://github.com/Concon8991/ai-support-intelligence)**
 
-```
-175+ persistent memories
-40 specialist agents (QA, security, data engineering, UX, workflow, etc.)
-200+ MCP tools across Domo, GitHub, Slack, Teams, Snowflake, Linear
-Continuous monitoring: email + Teams + SharePoint every 15 minutes
-Shared knowledge lake (Compass) — shared with entire PS team
-Automated session snapshots, retros, pattern promotion to team library
-```
+LLM pipeline for scoring and analyzing support cases at operational scale.
+The engineering problems that actually matter at scale: context preservation across
+long case threads, token-bucket throttling at 90K TPM, hash-based idempotent re-runs,
+structured output enforcement so downstream SQL never breaks. Real code included.
 
-This isn't a chatbot. It's an autonomous operational intelligence layer that watches
-my active customer accounts, surfaces signals, and executes work I would otherwise
-have to do manually. It runs while I sleep.
+**[Scoob — Personal AI Operating System](https://github.com/Concon8991/scoob-ai-architecture)**
 
-Referenced in an internal team call as "auto-monitoring emails, Teams messages, and
-SharePoint for [multiple customer accounts] every 15 minutes."
+The multi-agent system I built to run my own FDE work:
+175+ persistent memories, 40 specialist agents, 200+ MCP tools, continuous monitoring
+of email + Teams + SharePoint across active customer accounts. Referenced internally
+as "auto-monitoring for [multiple customers] every 15 minutes."
 
 ---
 
-### AI / Data Pipelines
+### Data Engineering
 
-**[AI Support Intelligence Pipeline](https://github.com/Concon8991/ai-support-intelligence)**  
-LLM pipeline for scoring and classifying support cases at scale.
-Idempotent, throttled, structured-output-enforced. See the case study for
-the engineering problems: chunking context across long case threads, token-bucket
-throttling at 90K TPM, hash-based incremental re-runs, structured output
-enforcement so downstream SQL queries don't break.
+**[Customer Data Engineering Patterns](https://github.com/Concon8991/customer-data-engineering)**
 
-**[Customer Data Engineering Patterns](https://github.com/Concon8991/customer-data-engineering)**  
-Production data pipeline failure modes and fixes from real engagements:
-the silent row multiplication bug (financial delta: $40K undetected), the
-memory failure that only appeared at production scale, the connector that
-silently returned 98% of records, the federated query that shows 0 rows in the UI
-but has 44K rows via API. The patterns I developed to prevent all of these.
+Production failure modes and the patterns that prevent them — from real engagements:
+the silent row multiplication ($40K financial delta, no error in the log), the memory
+failure that only appears at production data volume, the connector that returns 98%
+of records and calls it success. Documented because these are what distinguish
+a reliable system from a demo that breaks the third time it runs.
 
 ---
 
 ## Industry Breadth
 
-| Industry | What I Built |
-|----------|-------------|
-| Aviation / Leasing | Automated trading tape + per-aircraft reporting (Snowflake + Jupyter) |
-| Retail / Home Improvement | AI salvage pricing + Power BI displacement |
-| Construction | ECAC cost-at-completion modeling + S-curve project tracking |
-| Mortgage / Finance | Turn time automation, AI chatbot, governance platform |
-| Media / Broadcasting | Campaign performance + advertiser portal (Australia) |
-| Nonprofit / Retail | AI document intelligence + multi-location operations |
-| Consumer Brands | Demand forecasting, franchise analytics |
+In 4 months as an FDE, I've built across:
+
+| Industry | What I Delivered |
+|----------|-----------------|
+| Aviation / Asset Leasing | Automated trading tape, Snowflake integration, multi-env deployment |
+| Retail / Home Improvement | AI pricing engine, BigQuery integration, Fortune 50 stakeholder delivery |
+| Mortgage / Financial Services | Turn time automation, AI chatbot, Power BI displacement |
+| Construction / Engineering | ECAC cost-at-completion modeling, S-curve project tracking |
+| Media / Broadcasting | Campaign performance platform, advertiser portal |
+| Consumer Food / Franchise | 36M-row POS + delivery + e-commerce unified analytics |
+| Nonprofit / Retail Operations | AI document intelligence, multi-location data intake |
 | Technology / SaaS | Agentic analytics, competitive displacement of ThoughtSpot + Snowflake Cortex |
-| Enterprise IT | Vendor lifecycle management, contract risk flagging |
-| Food & Beverage | 36M-row POS + delivery + e-commerce unified analytics |
+| Enterprise IT | Vendor lifecycle management, contract risk intelligence |
+| Professional Services (Internal) | Full PS operating system, capacity planning, AI synthesis |
+
+---
+
+## What "Business Acuity" Actually Looks Like
+
+I don't build dashboards. I build things that change what people do.
+
+The Support team at Domopalooza wasn't just a customer touchpoint — I helped
+frame it as a pipeline engine: 60% of the $78.6M ACV we engaged were on lower
+support tiers, which meant every conversation was a live expansion opportunity.
+I co-wrote the executive summary that surfaced that analysis to VP and C-suite.
+
+When I built the Trimble AI account review workflow, I didn't just build it —
+I showed it to the Chief AI & Analytics Officer and explained what it enabled
+strategically. That conversation went from the CAO to the CTO in an
+executive distribution email. From a manager with a side project.
+
+When the opportunity existed to displace Power BI at a financial services company,
+I understood the commercial play well enough to build migration tooling that
+made the transition cost nearly nothing — and let the executive sponsor declare
+Domo as the company's sole platform with confidence.
+
+The technical work is real. The business outcomes are the point.
 
 ---
 
 ## Strategic Contributions
 
-**FDE AI-First Enablement Program (co-designer)**  
-Co-designed and co-delivered the 2-day AI-first enablement program for Domo's
-entire Professional Services delivery team — establishing the Pattern Library-first,
-AI-native working model for the organization.
+**Domo Preferred Support — Brilliance Bar Co-Lead (Domopalooza 2026)**
+Co-led all on-site customer operations at Domo's annual conference:
+~300 appointments, $78.6M ACV engaged, 9.64/10 CSAT, 43% Director+.
+VP of Technical Support cited me and two other leaders specifically:
+*"You set the tone, coordinated the team seamlessly, and ensured that every
+customer interaction reflected our commitment to excellence."*
 
-**Pattern Library Contributor**  
-Active contributor to the team's shared engineering pattern library. Patterns
-I developed on customer builds are promoted to the team library and used by
-other FDEs on subsequent engagements.
+**FDE Enablement Program (Co-Designer)**
+Co-designed and delivered the 2-day AI-first enablement program for Domo's
+entire Professional Services delivery team — the methodology, the tooling,
+the pattern library that every FDE now uses.
 
-**AI Center of Excellence**  
-Member of the internal AI COE working group. Pitched and prototyped a cron-style
-scheduling capability for autonomous customer account monitoring. Contributed
-workflow skills to the shared team library.
+**AI Center of Excellence**
+Active member of the internal AI COE. Pitched autonomous account monitoring.
+Contributed workflow skills to the shared team library.
 
-**Customer Enablement (AEGM)**  
-Trained a customer's internal team on building their own Claude Code plugin from
-my Domo skill files. The customer adapted my patterns into an internal "Codex"
-system used across their team — my work multiplied through another organization.
+**Product Influence**
+Championed an AI readiness tool to Domo's Chief AI Officer and SVP Product.
+It was evaluated for integration into the formal product roadmap.
 
----
-
-## How I Work
-
-```
-01  Start with the customer problem — not the technology
-02  Understand the data (what exists, what's missing, what's wrong)
-03  Design the smallest useful system
-04  Build, ship, put it in users' hands
-05  Measure what actually changed
-06  Scale what works
-07  Document what broke — that's the real institutional knowledge
-```
-
-I've run this loop across 35+ customer engagements in aviation, retail, healthcare,
-construction, finance, media, nonprofits, and enterprise tech.
+**Team Pattern Library**
+Patterns I develop on customer builds are promoted to the shared team library
+and used by other FDEs on subsequent engagements — institutional knowledge
+that outlives any individual project.
 
 ---
 
 ## Stack
 
-**Languages:** Python · TypeScript · JavaScript · SQL
-
-**Frontend:** React 19 · Vite · Tailwind CSS · Framer Motion · react-i18next
-
-**Data:** Snowflake · BigQuery · Salesforce · Magic ETL · Jupyter · pandas · Domo
-
-**AI:** LLM API integration · structured output · prompt engineering · multi-agent orchestration · MCP server configuration · DomoGPT
-
-**Infrastructure:** REST APIs · OAuth · AppDB · Code Engine · Workflows (BPMN) · Domo Sandbox · Domo Everywhere embed · Documents API
-
-**Tooling:** Claude Code · GitHub Actions · Power BI REST API · Domo Publish (multi-instance)
+`Python` · `TypeScript` · `React 19` · `Vite` · `Tailwind CSS` · `Framer Motion` ·
+`SQL` · `pandas` · `Snowflake` · `BigQuery` · `Salesforce` · `Jupyter` ·
+`Magic ETL` · `Claude Code` · `MCP` · `Domo` · `AppDB` · `Code Engine` ·
+`Domo Workflows (BPMN)` · `LLM API integration` · `multi-agent orchestration`
 
 ---
 
-## Repos
-
-| Repo | What it is |
-|------|-----------|
-| [forward-deployed-operations-platform](https://github.com/Concon8991/forward-deployed-operations-platform) | AI-native PS platform, v9+, production |
-| [scoob-ai-architecture](https://github.com/Concon8991/scoob-ai-architecture) | Multi-agent AI operating system I built for myself |
-| [ai-support-intelligence](https://github.com/Concon8991/ai-support-intelligence) | LLM pipeline for support case scoring |
-| [customer-data-engineering](https://github.com/Concon8991/customer-data-engineering) | Production ETL patterns and failure modes |
-
----
-
-*Open to the right opportunity — forward-deployed engineering, technical solutions
-leadership, Head of FDE / Customer Engineering, or Director-level roles where
-deep technical ownership and customer outcomes are the job.*
-
-*[LinkedIn](https://linkedin.com/in/tom-occon) · tom.occon@gmail.com · Lehi, UT*
+*I'm open to the right opportunity — forward-deployed engineering, technical solutions
+leadership, Head of FDE / Customer Engineering, or Director-level roles where deep
+technical ownership and customer business outcomes are the same job.*
