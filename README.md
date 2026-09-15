@@ -2,7 +2,7 @@
 
 **Forward Deployed Engineer · AI & Data Systems**
 
-Lehi, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tom.occon@gmail.com
+Wellsville, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tom.occon@gmail.com
 
 ---
 
@@ -75,7 +75,7 @@ May 2026 · Forward Deployed Engineer
 
 ### The PS Ops Platform — Internal Production App
 
-**[→ Case Study](https://github.com/Concon8991/forward-deployed-operations-platform)**
+**[→ Case Study](https://github.com/TomOccon/forward-deployed-operations-platform)**
 
 I wrote a 1,464-line spec, then built it. Now it's in **v9+ in production**
 serving 50-100+ Domo PS employees. This is not a prototype.
@@ -142,7 +142,7 @@ in cloud computing credit consumption by year-end.
 
 ---
 
-### [AI Support Intelligence Pipeline](https://github.com/Concon8991/ai-support-intelligence)
+### [AI Support Intelligence Pipeline](https://github.com/TomOccon/ai-support-intelligence)
 
 An LLM pipeline for scoring and classifying support cases at scale.
 
@@ -155,7 +155,7 @@ All of that is solved in this repo, with real code.
 
 ---
 
-### [Scoob — My Personal AI Operating System](https://github.com/Concon8991/scoob-ai-architecture)
+### [Scoob — My Personal AI Operating System](https://github.com/TomOccon/scoob-ai-architecture)
 
 I built a multi-agent AI system to run my own FDE work.
 
@@ -169,7 +169,7 @@ That's not an exaggeration.
 
 ---
 
-### [Customer Data Engineering Patterns](https://github.com/Concon8991/customer-data-engineering)
+### [Customer Data Engineering Patterns](https://github.com/TomOccon/customer-data-engineering)
 
 Production failures from real customer pipelines — and the patterns that prevent them.
 
