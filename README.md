@@ -2,7 +2,7 @@
 
 **Forward Deployed Engineer · AI & Data Systems**
 
-Lehi, UT · [LinkedIn](https://linkedin.com/in/tom-occon) · tom.occon@gmail.com
+Lehi, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tom.occon@gmail.com
 
 ---
 
@@ -221,4 +221,4 @@ Other FDEs use them on the next build.
 leadership, Head of FDE / Customer Engineering. Roles where you're judged by what
 changes for customers, not how many meetings you attend.*
 
-*[LinkedIn](https://linkedin.com/in/tom-occon) · tom.occon@gmail.com*
+*[LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tom.occon@gmail.com*
