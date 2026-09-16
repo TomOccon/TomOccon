@@ -6,15 +6,16 @@ Wellsville, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) �
 
 ---
 
-I'm a leader who builds things, and I've been deliberate about the distinction between
-that and a builder who occasionally leads.
+I build things that actually change how people work.
 
-Over seven years in SaaS I've moved from individual contributor to support manager to
-Forward Deployed Engineer — each step toward wider scope and closer to where strategy
-gets made. At every level, the pattern has been the same: find the problem, build the
-system that solves it, make sure it actually changes how people work.
+Not dashboards that sit on a page. Systems that replace a 3-hour manual process,
+that flag the account that's about to churn before the CSM calls, that let an aircraft
+trader pull a live portfolio report instead of copying data into Excel for 4 hours.
+
+That's the job. And I love it.
 
 ---
+
 
 ## By the Numbers
 
