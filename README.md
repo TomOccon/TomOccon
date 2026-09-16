@@ -6,13 +6,12 @@ Wellsville, UT Â· [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) Â
 
 ---
 
-I build things that actually change how people work.
+I'm a leader who builds things. Not a builder who occasionally leads.
 
-Not dashboards that sit on a page. Systems that replace a 3-hour manual process,
-that flag the account that's about to churn before the CSM calls, that let an aircraft
-trader pull a live portfolio report instead of copying data into Excel for 4 hours.
-
-That's the job. And I love it.
+The distinction matters. Every system I've shipped, every customer problem I've solved,
+every AI pipeline I've architected. Those are proof of judgment. The goal has always
+been the room where strategy gets made. I'm building toward that room deliberately,
+one outcome at a time.
 
 ---
 
