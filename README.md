@@ -6,17 +6,50 @@ Wellsville, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) �
 
 ---
 
-At some point I realized that the most interesting problems at the intersection of technology
-and business don't get solved by engineers who escalate to leaders, or by leaders who wait
-for engineers. They get solved by someone who can do both and loves doing it.
+I'm a leader who builds things, and I've been deliberate about the distinction between
+that and a builder who occasionally leads.
 
-That's what I've been building toward, deliberately, since I started in this industry.
+Over seven years in SaaS I've moved from individual contributor to support manager to
+Forward Deployed Engineer — each step toward wider scope and closer to where strategy
+gets made. At every level, the pattern has been the same: find the problem, build the
+system that solves it, make sure it actually changes how people work.
 
-I genuinely love leading teams toward outcomes they care about. I also love building the
-systems that make those outcomes possible. I've been fortunate to spend my career in roles
-where those two things aren't in conflict — where the best way to lead is to understand
-the technical reality deeply enough to make the right call and then go build the thing that
-proves it.
+---
+
+## By the Numbers
+
+### Forward Deployed Engineer (May 2026 – Present)
+
+| Metric | Result |
+|--------|--------|
+| Enterprise accounts served | 12 unique accounts in first 4 months |
+| Billable hours delivered | 205+ hours across 7+ industries |
+| Account breadth | 3× the team average for the same period |
+| Output | 2.5× the team average billable hours |
+| Industries | Healthcare · Financial Services · Manufacturing · Transportation · Retail · Media · Professional Services |
+
+### Technical Support Manager (Dec 2024 – May 2026)
+
+| Metric | My Team | Benchmark |
+|--------|---------|-----------|
+| SLA compliance | 98.9% | 97.9% |
+| Customer satisfaction | 9.14 / 10 | 8.96 / 10 |
+| Avg days to close | 14.0 | 19.5 |
+| Cases per advisor | 458 | 408 |
+| Domopalooza ACV engaged | $78M across 300+ appointments | — |
+| NRR impact | +1% through tooling and AI programs | — |
+
+### Senior Technical Advisor (Nov 2022 – Nov 2024)
+
+| Metric | Result | Benchmark |
+|--------|--------|-----------|
+| Cases personally handled | 1,171 | ~530 avg |
+| SLA compliance | 99.3% | 96.6% avg |
+| Customer satisfaction | 9.15 / 10 | 8.61 / 10 avg |
+| Avg days to close | 13.0 | 17.9 avg |
+| Resolution speed | #7 of 38 advisors | — |
+| Accounts managed | 306 enterprise accounts | — |
+| Aggregate ARR | $376M across portfolio | — |
 
 ---
 
@@ -25,96 +58,67 @@ proves it.
 ```
 2022 · Sr. Technical Advisor, Preferred Support
   │
-  │  Managing enterprise escalations and technical triage for
-  │  Fortune 500 accounts. This is where I developed the customer
-  │  instinct that drives everything I've built since.
-  │
-  ├─ Early 2024: Initiated an AI + NPS collaboration with Domo's
+  ├─ 2024: Initiated an AI + NPS collaboration with Domo's
   │    product team on my own initiative as an individual contributor.
-  │    I saw an opportunity, scoped it out, and brought it to the
-  │    right people. Nobody asked me to. That's the pattern I've
-  │    tried to follow ever since.
+  │    I was still an IC. Nobody asked me to do this.
+  │    That's the pattern. I see the problem, I build the solution,
+  │    then I bring it to the right people.
   │
   ↓
 November 2024 · Promoted to Manager, Technical Support
   │
-  │  Took over the West Coast Preferred Support team.
+  ├─ Took over the West Coast Preferred Support team.
   │
-  ├─ Co-led the Brilliance Bar at Domopalooza, Domo's annual
-  │    customer conference. About 300 customer sessions across
-  │    $78.6M in total ACV, 9.64/10 CSAT, 43% Director-level
-  │    attendees. I helped frame it as an expansion opportunity,
-  │    not just a support touchpoint. 60% of the customers we
-  │    engaged were on lower support tiers.
+  ├─ April 2025: Named co-lead for one of five AI initiatives
+  │    formally prioritized by Domo's CCO for the support organization.
   │
-  ├─ Named co-lead for one of five AI initiatives formally
-  │    prioritized by Domo's CCO across the support organization.
+  ├─ June 2025: Authored an SME Program proposal and brought it
+  │    directly to the VP and all senior managers.
   │
-  ├─ Authored an SME Program proposal and brought it directly
-  │    to the VP and the full senior manager group. A structured
-  │    program designed to build cross-functional subject matter
-  │    experts with ties into Product, Engineering, and PS.
+  ├─ December 2025: Advanced to an in-person interview with Domo's CCO
+  │    for the VP, Support role. 13 months into management.
   │
-  ├─ Built an AI-powered account review workflow using Domo's
-  │    own platform and shared it with the Chief AI and Analytics
-  │    Officer. He cited it in a company-wide executive brief
-  │    to the CTO as a reference example of what was possible.
+  ├─ Co-led Domopalooza Brilliance Bar:
+  │    ~300 customer appointments · $78M total ACV engaged
+  │    9.64/10 CSAT · 81% perfect scores · 43% Director-level+
   │
-  └─ December 2025: Advanced to an in-person interview with Domo's
-       CCO for the VP, Support role. Thirteen months into management.
-       That conversation meant a lot to me and clarified a lot about
-       where I want to go.
+  └─ Built an AI account review workflow. Domo's Chief AI Officer
+       cited it to the CTO in a company-wide executive brief.
 
 May 2026 · Forward Deployed Engineer
   │
-  │  Part of the CEO's initiative to double down on Domo's FDE motion.
-  │  I was excited about the transition because it put me closer to
-  │  the kinds of problems I love most: strategic accounts, ambiguous
-  │  challenges, and the chance to build something meaningful fast.
+  ├─ Week one: drove a customer demo described by their analytics
+  │    director as "the most impressive vendor meeting in a decade."
+  │    Domo's CCO reached out personally: "May have heard YOU
+  │    were the mastermind?"
   │
-  ├─ In my first week, I led a customer demo that their analytics
-  │    director described as the most impressive vendor meeting
-  │    they'd experienced in a decade. Domo's CCO reached out
-  │    personally: "May have heard YOU were the mastermind?"
+  ├─ "Tom is crushing it... The customer has said game changer
+  │    more times than I can count." (AE, live from customer onsite)
   │
-  ├─ "Tom is crushing it. The customer has said game changer
-  │    more times than I can count." (Account executive, live
-  │    from a high-stakes executive onsite)
-  │
-  ├─ Co-designed and delivered the AI-first enablement program
-  │    for Domo's entire Professional Services delivery team.
-  │
-  ├─ 35+ enterprise customer builds across 10+ industries
-  │    in the first four months.
+  ├─ 35+ enterprise builds in the first 4 months.
   │
   └─ Built the internal operating system for Domo's Professional
-       Services organization from scratch. It's in production
-       at v9+, used by 50-100+ employees across the team daily.
+       Services organization (v9+, production, 50-100+ daily users).
 ```
 
 ---
 
-## Selected Work
-
-These aren't demos. They're the record of real problems I've been trusted to solve.
+## What I've Built
 
 ### The PS Ops Platform
 
 **[Full Case Study](https://github.com/TomOccon/forward-deployed-operations-platform)**
 
-I wrote the full specification, built the application, and have been iterating it
-through nine major versions. It runs in production at Domo and is the primary
-operational tool for the Professional Services team.
+I wrote the spec (1,464 lines). I built it. I've iterated it to v9+.
+In production, used by 50-100+ Domo PS employees daily.
 
-The reason I built it wasn't a mandate. I saw that the organization was running on
-a combination of spreadsheets, Slack threads, and disconnected CRM data, and I had
-a clear enough picture of what a well-designed operating system for a PS team should
-look like that I decided to build it. That kind of decision has to come from a place
-of caring about the org and understanding both the people side and the technical side.
+Not because anyone told me to. I saw the organization running on spreadsheets
+and Slack, and I knew what a high-performing PS team's operating system should
+look like. That's a leadership decision, not an engineering one.
 
 What it replaced: 20-minute weekly timesheet entry processes (now under five minutes
-per IC across the whole team), no visibility into engagement health, no systematic
-AI-assisted preparation for customer meetings, and no client portal for external stakeholders.
+per IC), disconnected engagement tracking, zero visibility into resource capacity,
+no systematic AI prep for customer meetings.
 
 Stack: React 19 · TypeScript · Vite · Tailwind · 22 datasets · 14 AppDB collections · Code Engine · DomoGPT
 
@@ -122,87 +126,69 @@ Stack: React 19 · TypeScript · Vite · Tailwind · 22 datasets · 14 AppDB col
 
 ### Aviation Capital Group
 
-ACG manages over 100 aircraft leases globally. Their team was spending three to four
-hours each week manually pulling data from six different views and reformatting it
-into per-aircraft Excel tabs.
+ACG manages 100+ aircraft globally. Their team spent 3-4 hours per week manually
+reformatting lease data across 6 views into Excel. I automated it end-to-end: Jupyter
+workspace (44 datasets), Snowflake ODBC integration, multi-environment deployment
+(dev to UAT to prod via Domo Sandbox).
 
-I automated the entire process end-to-end using a Jupyter workspace connected to 44 datasets,
-Snowflake ODBC integration, and a full multi-environment deployment from dev through UAT
-to production.
-
-The harder part of this story: midway through the engagement, the customer's director
-presented me with a same-day deadline to resolve a critical Snowflake field truncation
-bug I had never encountered before. I diagnosed it and resolved it in the same session.
-At go-live, a trader submitted a live pull request before version one was even officially
-released. Senior stakeholders called the whole experience "flooring."
+Midway through, the customer's director gave me a same-day deadline on a critical
+Snowflake bug I'd never seen before. Fixed it in the same session. At go-live, a
+trader requested a live pull before V1 was even released. Senior stakeholders
+called the whole thing "flooring."
 
 ---
 
-### Home Depot
+### Fortune 50 Retail — AI Markup Pricing Tool
 
-A Fortune 50 stakeholder demo with less than one business day to prepare. I built a
-complete AI-driven salvage pricing recommendation system: 16.2 million rows of HDR scan
-data combined with Google BigQuery inventory feeding AI-recommended markup percentages
-by department, class, and subclass, with confidence scores and an approve/deny workflow
+For a stakeholder demo. Under 24 hours. 16.2M-row dataset + BigQuery feeding
+AI-recommended salvage pricing with confidence scores and an approve/deny workflow
 writing back to audit tables. The demo landed.
 
 ---
 
 ### Power BI Migration Tooling
 
-I built automation using Claude Code and the Power BI REST API that converts Power BI
-dashboards to Domo App Studio. I used it to migrate approximately 1,000 dashboards for
-a prior customer in about one week.
-
-At First Colony Mortgage, the executive sponsor designated Domo as the company's sole
-reporting platform and started sunsetting Power BI. That's what competitive displacement
-through execution looks like.
+Built automation using Claude Code and the Power BI REST API that converts Power BI
+dashboards to Domo App Studio. Used it to migrate approximately 1,000 dashboards for
+a prior customer in about one week. At one engagement, the executive sponsor designated
+Domo as the company's sole reporting platform and started sunsetting Power BI.
 
 ---
 
 ### Instance Governance: 73% Credit Reduction
 
-I audited a customer's entire cloud analytics environment and found over 2,000 orphaned
-datasets feeding nothing, 22 million duplicate rows across 55 datasets, and one dataset
-sitting at 126 million rows with no clear owner. I built the remediation plan and am
-currently executing it. The projected outcome is a 73% reduction in cloud computing
-credit consumption by year-end.
+Full audit: 2,000+ orphaned datasets, 22M duplicate rows, one dataset at 126M rows
+with no clear owner. Built the remediation plan, executing it. Projected: 73%
+reduction in cloud computing spend by year-end.
 
 ---
 
 ### [Scoob: Personal AI Operating System](https://github.com/TomOccon/scoob-ai-architecture)
 
-I designed and built a multi-agent AI system to run my own FDE work: 40 specialist agents,
-175+ persistent memories, and over 200 tools spanning Domo, GitHub, Slack, Teams, Snowflake,
-and Salesforce. It monitors multiple active customer accounts every 15 minutes and automatically
-contributes patterns from my work to the team's shared knowledge base.
+40 specialist agents. 175+ memories. 200+ tools. Monitors multiple customer accounts
+every 15 minutes and automatically contributes patterns to the team's shared knowledge base.
 
-I built it because I believe one of the most important things a technical leader can do is
-design systems that multiply their own judgment rather than just working harder. I wanted to
-understand what that actually looks like in practice. This is my answer.
+I built this because I believe the highest-leverage thing a technical leader can do
+is multiply their own judgment. One person operating at the scale of a small team.
 
 ---
 
 ### [AI Support Intelligence Pipeline](https://github.com/TomOccon/ai-support-intelligence)
 
-An LLM pipeline that transforms unstructured support cases into structured operational
-intelligence: quality scores, root cause patterns, and sentiment trends across thousands
-of cases. Includes real solutions to real engineering constraints around chunking, throttling,
-and structured output enforcement.
+LLM pipeline: unstructured support cases to structured operational intelligence.
+Quality scores, root cause patterns, sentiment trends. Real code, real constraints.
 
 ---
 
 ### [Customer Data Engineering Patterns](https://github.com/TomOccon/customer-data-engineering)
 
-A collection of production failure modes from real customer pipelines and the patterns that
-prevent them. The silent row multiplication that caused a $40,000 financial discrepancy
-with no error in the log. The connector that returned 98% of records and reported success.
-The memory failure that only appeared at production data volume. The things that actually
-matter when you're responsible for systems that people depend on.
+Production failures and the patterns that prevent them. The silent $40K row multiplication.
+The connector that called 98% a success. The memory failure that only appeared at production
+scale.
 
 ---
 
-## Industries I've Led Delivery In
+## Industries
 
 Aviation · Retail · Mortgage · Construction · Media · Food and Franchise ·
 Nonprofit · Enterprise SaaS · Enterprise IT · Professional Services
@@ -211,40 +197,47 @@ Nonprofit · Enterprise SaaS · Enterprise IT · Professional Services
 
 ## How I Think About Leadership
 
-Technical depth is credibility, not identity. I can go deep on architecture, data pipelines,
-and AI systems, and that earns the right to be in the room. But it is not the reason to
-be in the room.
+Technical depth is credibility, not identity. I can go deep on architecture, data
+pipelines, and AI systems — that earns the right to be in the room, but it's not
+the reason to be there.
 
-The best leaders build leverage. I built Scoob so one person could monitor eight accounts
-instead of one. I built the PS Ops platform so fifty people could operate better. I co-designed
-the FDE enablement program because I wanted the whole team to level up, not just myself.
-Every system I build reflects a decision about where to concentrate organizational leverage,
-and those decisions feel more like leadership to me than anything else I do.
+The best leaders build leverage. I built Scoob so I could monitor 8+ accounts at
+once instead of one at a time. I built the PS Ops platform so 50+ people could
+operate better. I co-designed the FDE enablement program because I wanted the whole
+team to level up. Every system I build reflects a decision about where to put
+organizational leverage.
 
-Outcomes are the only scoreboard. "The most impressive vendor meeting in a decade."
-"Game changer more times than I can count." "Beyond brilliant." "You were the mastermind."
-I keep those not because I need the recognition, but because they confirm that the judgment
-behind the work was sound.
-
-The trajectory I'm building is intentional. Individual contributor to manager to VP candidate
-at thirteen months in to FDE on the most strategic accounts. Every step has been toward wider
-scope, more organizational leverage, and closer to where strategy gets made. I'm working
-toward C-suite leadership the way I approach every other goal: by earning it through delivery
-and learning everything I can along the way.
+I'm building toward C-suite leadership the way I approach every other goal: by earning
+it through delivery and learning everything I can along the way.
 
 ---
 
-## Stack
+## Skills
 
+**AI & Emerging Tech**
+`Multi-Agent AI Systems` · `LLM Integration` · `Prompt Engineering` · `Generative AI` ·
+`MCP (Model Context Protocol)` · `AI Strategy` · `Claude / Anthropic`
+
+**Engineering**
 `Python` · `TypeScript` · `React 19` · `Vite` · `Tailwind CSS` · `SQL` · `pandas` ·
-`Snowflake` · `BigQuery` · `Salesforce` · `Jupyter` · `Magic ETL` · `Claude Code` ·
-`MCP` · `Domo` · `AppDB` · `Code Engine` · `Domo Workflows` · `LLM API integration` ·
-`multi-agent orchestration`
+`Data Pipeline Engineering` · `ETL` · `API Integration` · `Jupyter Notebooks`
+
+**Data & Analytics**
+`Snowflake` · `BigQuery` · `Salesforce` · `Domo` · `Business Intelligence` ·
+`Data Engineering` · `Magic ETL` · `AppDB`
+
+**Platform**
+`Domo ProCode` · `Code Engine` · `Domo Workflows` · `Domo Everywhere` · `AppDB`
+
+**Leadership & Business**
+`Forward Deployed Engineering` · `Professional Services Delivery` · `Customer Success` ·
+`Enterprise Software` · `Revenue Retention (NRR)` · `SaaS` · `Cross-functional Leadership` ·
+`P&L Management` · `Go-to-Market Strategy`
 
 ---
 
-*I'm looking for the right opportunity at a company where technical credibility and
-business leadership are the same job, and where the path to the C-suite is earned
-through delivering outcomes and building great teams.*
+*Looking for the right opportunity. A company where technical credibility and business
+leadership are the same job, and where the path to the C-suite is earned by delivering
+outcomes, not accumulated through tenure.*
 
 *[LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tom.occon@gmail.com*
