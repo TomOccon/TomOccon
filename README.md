@@ -173,6 +173,17 @@ is multiply their own judgment. One person operating at the scale of a small tea
 
 ---
 
+
+---
+
+### Databricks MCP: 43 Tools Beyond the Platform's Own Server
+
+[`domo-domosapiens/scoob-mcp`](https://github.com/domo-domosapiens/scoob-mcp/tree/master/databricks)
+
+Databricks ships managed MCP servers that cover SQL execution, Unity Catalog, and Genie. I mapped the full platform — every API surface, every feature announced through mid-2026 — and built a Python MCP server that covers what theirs doesn't: MLflow, Model Serving, Mosaic AI Vector Search, Lakebase (their new serverless Postgres GA'd in 2026), Delta Live Tables, compute lifecycle, governance grants, Databricks Apps, and multi-workspace routing.
+
+43 tools. Fully headless via PAT auth. Graceful degradation on features not yet available in a workspace's region. Built in a single session as a direct extension of the Scoob toolset.
+
 ### [AI Support Intelligence Pipeline](https://github.com/TomOccon/ai-support-intelligence)
 
 LLM pipeline: unstructured support cases to structured operational intelligence.
@@ -223,8 +234,8 @@ it through delivery and learning everything I can along the way.
 `Data Pipeline Engineering` · `ETL` · `API Integration` · `Jupyter Notebooks`
 
 **Data & Analytics**
-`Snowflake` · `BigQuery` · `Salesforce` · `Domo` · `Business Intelligence` ·
-`Data Engineering` · `Magic ETL` · `AppDB`
+`Snowflake` · `BigQuery` · `Databricks` · `Salesforce` · `Domo` · `Business Intelligence` ·
+`Data Engineering` · `Unity Catalog` · `Delta Lake` · `MLflow` · `Magic ETL` · `AppDB`
 
 **Platform**
 `Domo ProCode` · `Code Engine` · `Domo Workflows` · `Domo Everywhere` · `AppDB`
@@ -241,3 +252,4 @@ leadership are the same job, and where the path to the C-suite is earned by deli
 outcomes, not accumulated through tenure.*
 
 *[LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tom.occon@gmail.com*
+
