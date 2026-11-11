@@ -18,23 +18,40 @@ Currently a Senior Consultant in Professional Services at Progress Software (whi
 
 - **[Scoob](https://github.com/TomOccon/scoob-ai-architecture):** a multi-agent operating system for FDE work. 40 specialist agents, 175+ persistent memories, 200+ MCP tools, orchestrated through Claude Code with a delegation gate, effort routing and adversarial QA and security agents that are separate from the builders.
 - **Custom MCP servers and LLM integrations** for Sony Interactive Entertainment and Home Depot, compressing implementation from months to days. The MCP tooling I built now ships in Domo's product.
-- **Databricks MCP server (43 tools):** Databricks ships managed MCP servers for SQL, Unity Catalog and Genie. I mapped the rest of the platform and built a Python server covering MLflow, Model Serving, Mosaic AI Vector Search, Lakebase, Delta Live Tables, compute lifecycle, governance grants, Databricks Apps and multi-workspace routing. Headless PAT auth, with graceful degradation for features a workspace's region does not have yet. Built in a single session on top of the Scoob toolset. (Lives in an employer repo, so there is no public link.)
+- **Databricks MCP server (43 tools):** Databricks ships managed MCP servers for SQL, Unity Catalog and Genie. I mapped the rest of the platform and built a Python server covering MLflow, Model Serving, Mosaic AI Vector Search, Lakebase, Delta Live Tables, compute lifecycle, governance grants, Databricks Apps and multi-workspace routing. Headless PAT auth, with graceful degradation for features a workspace's region does not have yet. Built in a single session on top of the Scoob toolset. The production server lives in an employer repo. **[mcp-server-patterns](https://github.com/TomOccon/mcp-server-patterns)** is a clean-room reference implementation of the same design (tool registry, multi-workspace routing, capability probing with graceful degradation, destructive-action gates, output caps) with 45 tests.
 
 ### LLM pipelines
 
-- **[AI Support Intelligence Pipeline](https://github.com/TomOccon/ai-support-intelligence):** turns raw support cases and comment threads into structured scores: resolution quality, sentiment, root cause pattern, escalation risk, documentation gaps. Token-bucket rate limiting, retry with backoff, content-hash idempotency, overlapping chunking for long threads and strict JSON validation. The same approach I used to run AI agents over 5,000+ case reviews and 169 root cause analyses.
+- **[AI Support Intelligence Pipeline](https://github.com/TomOccon/ai-support-intelligence):** turns raw support cases and comment threads into structured scores: resolution quality, sentiment, root cause pattern, escalation risk, documentation gaps. Token-bucket rate limiting, retry with backoff, content-hash idempotency, overlapping chunking for long threads and strict JSON validation. Runs end to end with a stub client and 18 tests, and includes a root cause report. The same approach I used to run AI agents over 5,000+ case reviews and 169 root cause analyses.
 
 ### Data engineering
 
-- **[Customer Data Engineering Patterns](https://github.com/TomOccon/customer-data-engineering):** production failures and the fixes that prevent them. A silent $40K row multiplication, a connector that reported success at 98% completeness, a join that fails only at production scale, and a service account that sees different data than the UI.
+- **[Customer Data Engineering Patterns](https://github.com/TomOccon/customer-data-engineering):** production failures and the fixes that prevent them. A silent $40K row multiplication, a connector that reported success at 98% completeness, a join that fails only at production scale, and a service account that sees different data than the UI. Now ships as runnable checks (`dataguard`, 47 tests): reconciliation, join fanout detection, connector completeness, memory-bounded joins and a governance audit.
 - **Instance governance:** audited 2,000+ orphaned datasets, 22M duplicate rows and a 126M-row dataset with no owner. Built the remediation plan, projecting a 73% reduction in cloud compute spend.
 - **Aviation lease reporting:** automated 3-4 hours a week of manual Excel reformatting for a global aircraft lessor. Jupyter workspace over 44 datasets, Snowflake ODBC integration and dev to UAT to prod promotion through Domo Sandbox.
 - **Fortune 50 retail pricing tool:** built in under 24 hours for a stakeholder demo. A 16.2M-row dataset and BigQuery feeding AI-recommended salvage pricing with confidence scores, plus an approve or deny workflow that writes back to audit tables.
-- **Power BI migration tooling:** automation on Claude Code and the Power BI REST API that converts Power BI dashboards to Domo App Studio. Migrated about 1,000 dashboards for one customer in roughly a week.
+- **Power BI migration tooling:** automation on Claude Code and the Power BI REST API that converts Power BI dashboards to Domo App Studio. Migrated about 1,000 dashboards for one customer in roughly a week. **[bi-migration-toolkit](https://github.com/TomOccon/bi-migration-toolkit)** is the clean-room version of the approach: inventory, triage into auto, assisted and manual waves, idempotent conversion and a readiness report.
 
 ### Internal platform
 
-- **[PS Ops Platform](https://github.com/TomOccon/forward-deployed-operations-platform):** I wrote the 1,464-line spec and shipped 9+ versions. Used daily by 50-100+ Professional Services employees. Weekly time entry dropped from 20 minutes to under 5. React 19, TypeScript, Vite, Tailwind, 22 datasets, 14 AppDB collections, Code Engine and DomoGPT with rule-based fallbacks.
+- **[PS Ops Platform](https://github.com/TomOccon/forward-deployed-operations-platform):** I wrote the 1,464-line spec and shipped 9+ versions. Used daily by 50-100+ Professional Services employees. Design decisions are in the [ADRs](https://github.com/TomOccon/forward-deployed-operations-platform/tree/main/docs/adr). Weekly time entry dropped from 20 minutes to under 5. React 19, TypeScript, Vite, Tailwind, 22 datasets, 14 AppDB collections, Code Engine and DomoGPT with rule-based fallbacks.
+
+---
+
+## Claim to Evidence
+
+| What my resume says | Where to see how it was done |
+|---|---|
+| 50+ production AI builds for 25 accounts in 6 months, 3x peer output | [Scoob](https://github.com/TomOccon/scoob-ai-architecture): delegation gate, ADRs, [AI-first delivery framework](https://github.com/TomOccon/scoob-ai-architecture/blob/main/docs/ai-first-delivery-framework.md) |
+| Custom MCP servers and LLM integrations; MCP tooling now ships in Domo's product | [mcp-server-patterns](https://github.com/TomOccon/mcp-server-patterns) |
+| AI agents for 5,000+ case reviews and 169 RCAs | [ai-support-intelligence](https://github.com/TomOccon/ai-support-intelligence) |
+| Added tickets and escalations to the health score; renewal forecasting extended to 18 months | [account-health-and-renewal-forecasting](https://github.com/TomOccon/account-health-and-renewal-forecasting): health score, backtest, 18-month forecast, at-risk triage |
+| About 1,000 Power BI dashboards migrated in about a week | [bi-migration-toolkit](https://github.com/TomOccon/bi-migration-toolkit) |
+| Instance governance audit, 73% projected compute reduction | [customer-data-engineering](https://github.com/TomOccon/customer-data-engineering): `dataguard.governance` |
+| Silent row multiplication, connector completeness, join failures | [customer-data-engineering](https://github.com/TomOccon/customer-data-engineering) |
+| Internal PS platform, 9+ versions, 50-100+ daily users | [forward-deployed-operations-platform](https://github.com/TomOccon/forward-deployed-operations-platform) and its [ADRs](https://github.com/TomOccon/forward-deployed-operations-platform/tree/main/docs/adr) |
+
+The code in these repos is clean-room: synthetic data, no customer or employer code. The forecasting backtest uses a generator with the signal built in, so it demonstrates the method and is not a claim about real customer results.
 
 ---
 
