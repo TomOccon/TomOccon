@@ -6,9 +6,9 @@ Wellsville, UT Â· [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) Â
 
 ---
 
-I build production AI and data systems for enterprise customers, and I lead the teams that keep those customers renewing.
+Enterprise customers renew when the product starts running part of their business. I build the production AI and data systems that get it there, and I lead the technical customer teams that keep those accounts renewing and growing.
 
-Currently a Senior Consultant in Professional Services at Progress Software (which acquired Domo in 2026), carrying enterprise AI delivery through the integration. Before that, a founding Forward Deployed Engineer at Domo, where I delivered 50+ production AI and data builds for 25 enterprise accounts in six months, ranked first on the team at 3x peer output. Before that, I ran Domo's Preferred Support (Technical Account Management) program across North America West and APAC.
+Currently a Senior Consultant in Professional Services at Progress Software (which acquired Domo in 2026). I carry Domo's enterprise AI delivery and MCP tooling through the integration, and I am building the project operating system that moves Professional Services from billing hours to managing margin across 150+ engagements in five delivery pods, India, data science and partner delivery. Before that, a founding Forward Deployed Engineer at Domo, where I delivered 50+ production AI and data builds for 25 enterprise accounts across 7+ industries in six months, ranked first on the team at 3x the peer average. Before that, I ran Domo's Preferred Support (Technical Account Management) program across North America West and APAC.
 
 ---
 
@@ -17,7 +17,7 @@ Currently a Senior Consultant in Professional Services at Progress Software (whi
 ### Multi-agent AI systems and MCP servers
 
 - **[Scoob](https://github.com/TomOccon/scoob-ai-architecture):** a multi-agent operating system for FDE work. 40 specialist agents, 175+ persistent memories, 200+ MCP tools, orchestrated through Claude Code with a delegation gate, effort routing and adversarial QA and security agents that are separate from the builders.
-- **Custom MCP servers and LLM integrations** for Sony Interactive Entertainment and Home Depot, compressing implementation from months to days. The MCP tooling I built now ships in Domo's product.
+- **Custom MCP servers and LLM integrations** for Sony Interactive Entertainment and Home Depot, compressing implementation from months to days. The MCP tooling I built now ships in Domo's product as an out-of-the-box offering.
 - **Databricks MCP server (43 tools):** Databricks ships managed MCP servers for SQL, Unity Catalog and Genie. I mapped the rest of the platform and built a Python server covering MLflow, Model Serving, Mosaic AI Vector Search, Lakebase, Delta Live Tables, compute lifecycle, governance grants, Databricks Apps and multi-workspace routing. Headless PAT auth, with graceful degradation for features a workspace's region does not have yet. Built in a single session on top of the Scoob toolset. The production server lives in an employer repo. **[mcp-server-patterns](https://github.com/TomOccon/mcp-server-patterns)** is a clean-room reference implementation of the same design (tool registry, multi-workspace routing, capability probing with graceful degradation, destructive-action gates, output caps) with 45 tests.
 
 ### LLM pipelines
@@ -75,13 +75,13 @@ Engineering depth is what lets me lead technical customer teams credibly.
 
 | Result | Detail |
 |---|---|
-| Team | Led a 42-person Preferred Support (TAM) team across 5 regions and 306 accounts |
+| Team | Led a 42-person Preferred Support (TAM) team across 5 regions and 306 accounts: 11 direct reports including managers in Japan and India, 28 advisors; built the India team from zero through 200+ interviews; first response cut from 6.15 hours to about 1 |
 | Service quality | 98.9% SLA vs 97.9% global, 9.14 CSAT vs 8.96, 14.0 days to close vs 19.5, 458 vs 408 cases per advisor |
-| Retention | 136% NRR and 99.9% dollar renewal on 53 premium accounts. 78 at-risk renewals won with 1 loss ($33.3M renewed) as technical lead |
+| Retention | 136% NRR and 99.9% dollar renewal on 53 premium accounts, and 93.3% dollar renewal vs 79.8% for the rest of Domo. 78 at-risk renewals won with 1 loss ($33.3M renewed) as technical lead |
 | Forecasting | Extended renewal forecasting from 2 quarters to 18 months out; co-led quarterly post-sales strategy with the CCO |
-| Voice of the customer | Raised 492 engineering issues tied to $86.5M+ in annual revenue; 17 of 21 product requests delivered |
+| Voice of the customer | Raised 492 engineering issues affecting 500+ accounts ($86.5M+ in annual revenue) and 122 enhancement requests from 81 accounts; 17 of 21 product changes delivered |
 | Executive engagement | Co-led the Brilliance Bar at Domopalooza (~5,000 attendees): 300+ executive appointments tied to $78.6M in ACV, $41.3M in tier upgrades surfaced |
-| Enablement | Trained the 35-person Professional Services organization on an AI-first delivery framework; trained a customer's CEO and full C-suite onsite |
+| Enablement | Trained the 35-person consulting organization (20 pod consultants, 5 data scientists, 10+ India reps) on the AI-first delivery framework, proving each pattern in one engagement before the group adopts it; trained a customer's CEO and full C-suite onsite as they made Domo their only reporting platform |
 
 Earlier career: Senior Technical Advisor at Domo (1,200+ complex cases, 99.3% SLA, 9.15 CSAT), Sales Operations and Regional Management at Fox Pest Control, COO of a multi-state commercial cleaning company.
 
