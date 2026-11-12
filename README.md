@@ -2,7 +2,7 @@
 
 **Director of Technical Customer Success · Enterprise Retention and AI Adoption**
 
-Wellsville, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tomoccon@gmail.com
+Salt Lake City, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tomoccon@gmail.com
 
 ---
 
