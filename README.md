@@ -1,6 +1,6 @@
 # Tom Occon
 
-**AI and Data Engineering · Forward Deployed Engineering · Technical Customer Success Leadership**
+**Director of Technical Customer Success · Enterprise Retention and AI Adoption**
 
 Wellsville, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) · tomoccon@gmail.com
 
@@ -9,6 +9,8 @@ Wellsville, UT · [LinkedIn](https://www.linkedin.com/in/tom-occon-06563a193/) �
 Enterprise customers renew when the product starts running part of their business. I build the production AI and data systems that get it there, and I lead the technical customer teams that keep those accounts renewing and growing.
 
 Currently a Senior Consultant in Professional Services at Progress Software (which acquired Domo in 2026). I carry Domo's enterprise AI delivery and MCP tooling through the integration, and I am building the project operating system that moves Professional Services from billing hours to managing margin across 150+ engagements in five delivery pods, India, data science and partner delivery. Before that, a founding Forward Deployed Engineer at Domo, where I delivered 50+ production AI and data builds for 25 enterprise accounts across 7+ industries in six months, ranked first on the team at 3x the peer average. Before that, I ran Domo's Preferred Support (Technical Account Management) program across North America West and APAC.
+
+Customers I have built for: Sony Interactive Entertainment, The Home Depot, First Colony Mortgage, A+E Networks, ClarisHealth, The Walt Disney Company, and premium enterprise accounts across aviation, retail, financial services and media. Renewals as technical lead include Trimble ($1.15M) and Cosmo Energy ($799K expansion).
 
 ---
 
@@ -65,8 +67,6 @@ The code in these repos is clean-room: synthetic data, no customer or employer c
 
 **Business systems:** Salesforce · Gong · Jira · Zendesk
 
-**Languages spoken:** Portuguese (native), Dutch and Flemish (professional), French, Spanish
-
 ---
 
 ## Technical Customer Success Leadership
@@ -83,9 +83,21 @@ Engineering depth is what lets me lead technical customer teams credibly.
 | Executive engagement | Co-led the Brilliance Bar at Domopalooza (~5,000 attendees): 300+ executive appointments tied to $78.6M in ACV, $41.3M in tier upgrades surfaced |
 | Enablement | Trained the 35-person consulting organization (20 pod consultants, 5 data scientists, 10+ India reps) on the AI-first delivery framework, proving each pattern in one engagement before the group adopts it; trained a customer's CEO and full C-suite onsite as they made Domo their only reporting platform |
 
-Earlier career: Senior Technical Advisor at Domo (1,200+ complex cases, 99.3% SLA, 9.15 CSAT), Sales Operations and Regional Management at Fox Pest Control, COO of a multi-state commercial cleaning company.
+## Experience
 
-**Education:** MBA, IT Management (WGU, 2026) · BS, IT Management (WGU, 2025)
+| Role | Dates | Highlights |
+|---|---|---|
+| Senior Consultant, Professional Services, **Progress Software** | Sep 2026 - Present | Margin operating system across 150+ engagements; AI-first delivery training for 35 people; continuity of Domo enterprise AI builds and MCP tooling through the acquisition |
+| Founding Forward Deployed Engineer, **Domo** | May 2026 - Sep 2026 | 50+ production AI and data builds for 25 accounts, ranked first at 3x peer average; MCP servers and LLM integrations for Sony and Home Depot; a $1M Home Depot expansion positioned |
+| Technical Support Manager, North America West and APAC, **Domo** | Dec 2024 - May 2026 | Ran Preferred Support (TAM); 136% NRR on 53 premium accounts; 42-person team; finalist for VP of Support from 2,000+ applicants |
+| Senior Technical Advisor, **Domo** | Nov 2022 - Dec 2024 | 1,200+ complex cases across 306 accounts (~$79M ARR); #3 of 22 for resolution speed; 492 engineering issues raised |
+| Sales Operations Manager, **Fox Pest Control** | Feb 2021 - Nov 2022 | Revenue operations and Power BI analytics for 80+ reps and $4M+ ARR; infrastructure behind a $360M acquisition |
+| Regional Manager, **Fox Pest Control** | Sep 2019 - Feb 2021 | Ran 52 people across three branches; churn under 1% vs a 5% company average |
+| Chief Operating Officer, **Sure Systems Group** | Jul 2018 - Sep 2019 | Operations, books, payroll and multi-state tax for a ~$2M, 6-state business; P&L reporting for the owner |
+
+**Education and certifications:** MBA, IT Management (Western Governors University, 2026) · BS, IT Management (WGU, 2025) · Major Domo certification (Domo, 2022; earned in 1 week against a standard 8-week track) · Certificate, Strategic Thinking and Innovation (WGU)
+
+**Languages:** Portuguese (native), Dutch and Flemish (professional), French, Spanish. Lived in Brazil, the Netherlands and France.
 
 ---
 
